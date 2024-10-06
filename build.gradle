@@ -1,0 +1,39 @@
+buildscript {
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:3.0.0")
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'org.springframework.boot'
+
+repositories {
+	mavenLocal()
+	maven { url "https://mavensync.zkoss.org/maven2" }
+	maven { url "https://mavensync.zkoss.org/eval" }
+	mavenCentral()
+}
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+ext {
+	zkspringbootVersion = '3.0.0'
+	zatsVersion = '4.0.0'
+	junitVersion = '4.13.1'
+}
+
+configurations.testImplementation {
+	// conflicts with ZATS (which is using jetty)
+	exclude module: "spring-boot-starter-tomcat"
+}
+
+dependencies {
+	implementation ("org.zkoss.zkspringboot:zkspringboot-starter:${zkspringbootVersion}")
+	testImplementation "org.zkoss.zats:zats-mimic-ext96:${zatsVersion}"
+	testImplementation "junit:junit:${junitVersion}"
+}

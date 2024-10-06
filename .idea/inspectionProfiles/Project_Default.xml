@@ -1,0 +1,69 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="GrazieInspection" enabled="true" level="INFORMATION" enabled_by_default="true" editorAttributes="INFORMATION_ATTRIBUTES" />
+    <inspection_tool class="LanguageDetectionInspection" enabled="true" level="INFORMATION" enabled_by_default="true" editorAttributes="INFORMATION_ATTRIBUTES" />
+    <inspection_tool class="SpellCheckingInspection" enabled="true" level="INFORMATION" enabled_by_default="true" editorAttributes="INFORMATION_ATTRIBUTES">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="zkspringboot-minimal-war" />
+          <option value="zkspringboot-minimal-war" />
+          <option value="zkspringboot-minimal-war" />
+          <option value="zkspringboot-minimal-war" />
+          <option value="zkspringboot-minimal-war" />
+          <option value="zkspringboot-minimal-war" />
+          <option value="zkspringboot-minimal-war" />
+          <option value="zkspringboot-minimal-war" />
+          <option value="zkspringboot-minimal-war" />
+          <option value="zkspringboot-minimal-war" />
+          <option value="zkspringboot-minimal-war" />
+          <option value="zkspringboot-minimal-war" />
+          <option value="zkspringboot-minimal-war" />
+          <option value="zkspringboot-minimal-war" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="ch.qos.logback:logback-classic:1.4.5" />
+          <option value="ch.qos.logback:logback-core:1.4.5" />
+          <option value="commons-fileupload:commons-fileupload:1.4" />
+          <option value="commons-io:commons-io:2.2" />
+          <option value="org.apache.tomcat.embed:tomcat-embed-core:10.1.1" />
+          <option value="org.apache.tomcat.embed:tomcat-embed-websocket:10.1.1" />
+          <option value="org.springframework.boot:spring-boot-autoconfigure:3.0.0" />
+          <option value="org.springframework.boot:spring-boot:3.0.0" />
+          <option value="org.springframework:spring-core:6.0.2" />
+          <option value="org.springframework:spring-expression:6.0.2" />
+          <option value="org.springframework:spring-web:6.0.2" />
+          <option value="org.springframework:spring-webmvc:6.0.2" />
+          <option value="org.yaml:snakeyaml:1.33" />
+          <option value="org.zkoss.zk:zk:9.6.0-jakarta" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
